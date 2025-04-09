@@ -380,3 +380,22 @@ Children:
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: ns=0;EURange
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: High
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 10.0
+    - Name: Constrain
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true

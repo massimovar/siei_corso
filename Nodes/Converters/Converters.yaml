@@ -1,2 +1,19 @@
 Name: Converters
 Type: ConvertersCategoryFolder
+Children:
+- Name: SecondsManager
+  Id: g=38cc7a74cf5512bfcf94012ade96e153
+  Supertype: LinearConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Source
+    Type: BaseDataVariableType
+    DataType: Number
+    ReferenceType: HasSource
+    Value: {"Type":11,"Body":0.0}
+  - Name: Slope
+    Type: BaseDataVariableType
+    DataType: Double
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: 0.001
