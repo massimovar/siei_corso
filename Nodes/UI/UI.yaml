@@ -1618,7 +1618,7 @@ Children:
           - Name: ScreenToOpen
             Type: BaseDataVariableType
             DataType: NodeId
-            Value: "/Objects/siei_corso/UI/Screens/Recipes"
+            Value: "/Objects/siei_corso/UI/Screens/Converters"
         - Name: VerticalGap
           Type: BaseDataVariableType
           DataType: Size

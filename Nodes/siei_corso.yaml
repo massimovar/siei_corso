@@ -52,6 +52,7 @@ Children:
 - File: Alarms/Alarms.yaml
 - File: Recipes/Recipes.yaml
 - File: Loggers/Loggers.yaml
+- File: Converters/Converters.yaml
 - File: DataStores/DataStores.yaml
 - File: Reports/Reports.yaml
 - File: 'OPC-UA/OPC-UA.yaml'

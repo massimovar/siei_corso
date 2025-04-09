@@ -1,0 +1,8 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path id="semicircle" d="M 150,90 A 50,50 0 1 0 50,90" fill="#87CEEB" stroke="#87CEEB" />
+    <line id="line" x1="100" y1="80" x2="100" y2="130" stroke="#87CEEB" stroke-width="2"/>
+    <polygon id="leftTriangle" points="50,100 100,130 50,160" fill="#87CEEB" stroke="#87CEEB" />
+    <polygon id="rightTriangle" points="150,100 100,130 150,160" fill="#87CEEB" stroke="#87CEEB" />
+  </g>
+</svg>
