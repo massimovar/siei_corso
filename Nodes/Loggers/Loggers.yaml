@@ -1,2 +1,4 @@
 Name: Loggers
 Type: LoggersCategoryFolder
+Children:
+- File: Converters/Converters.yaml

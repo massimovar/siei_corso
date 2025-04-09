@@ -49,7 +49,6 @@ Children:
   Type: PropertyGroup
 - File: UI/UI.yaml
 - File: Model/Model.yaml
-- File: Converters/Converters.yaml
 - File: Alarms/Alarms.yaml
 - File: Recipes/Recipes.yaml
 - File: Loggers/Loggers.yaml
@@ -63,3 +62,8 @@ Children:
 - File: System/System.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
+- Name: MyTags
+  Id: g=be28b99d8a748281bbf6827fad1e7235
+  Type: BaseDataVariableType
+  DataType: NodeId
+  Value: "/Objects/siei_corso/Model/PLC/DB2"

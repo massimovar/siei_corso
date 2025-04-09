@@ -1,0 +1,276 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: PLC
+  Id: g=c36cfe1882b2adc631ae47dbaa19fa82
+  Type: TagStructure
+  DataType: Structure
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
+  Children:
+  - Name: DB1
+    Type: TagStructure
+    DataType: Structure
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
+    Children:
+    - Name: x0
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB1.x0"
+    - Name: X1
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB1.X1"
+    - Name: X2
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB1.X2"
+    - Name: X3
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB1.X3"
+    - Name: X4
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB1.X4"
+    - Name: X5
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB1.X5"
+    - Name: X6
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB1.X6"
+    - Name: X7
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB1.X7"
+    - Name: r0
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB1.r0"
+    - Name: r1
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB1.r1"
+    - Name: r2
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB1.r2"
+    - Name: r3
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB1.r3"
+    - Name: r4
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB1.r4"
+    - Name: r5
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB1.r5"
+  - Name: DB2
+    Type: TagStructure
+    DataType: Structure
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
+    Children:
+    - Name: x0
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB2.x0"
+    - Name: X1
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB2.X1"
+    - Name: X2
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB2.X2"
+    - Name: X3
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB2.X3"
+    - Name: X4
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB2.X4"
+    - Name: X5
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB2.X5"
+    - Name: X6
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB2.X6"
+    - Name: X7
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB2.X7"
+    - Name: r0
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB2.r0"
+    - Name: r1
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB2.r1"
+    - Name: r2
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB2.r2"
+    - Name: r3
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB2.r3"
+    - Name: r4
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB2.r4"
+    - Name: r5
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.DB2.r5"

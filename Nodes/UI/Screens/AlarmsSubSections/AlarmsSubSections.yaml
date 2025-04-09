@@ -1,0 +1,15 @@
+Name: AlarmsSubSections
+Type: FolderType
+Children:
+- Name: Screen1
+  Id: g=4e0fe838180fc62b353bdc6ac07aeec5
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Screen2
+  Id: g=9040109d1901068a42ae76edf090a550
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Screen3
+  Id: g=1425a98bb4b9a1dfc4d885ace74e35ec
+  Supertype: Screen
+  ReferenceType: HasComponent
