@@ -3,31 +3,25 @@ Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
 Children:
 - Name: DigitalAlarm1
-  Id: g=bd196c5d38f4d7c06bf22801efe37eb1
+  Id: g=a005b288d63f4cc1989322ddceb42275
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=41b084abdfb530dbfe5e42ac131d330a
+    Id: g=2f17042f411d2eeba4767bb24a429d1e
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=e3e6421f855515abf429689048cd75df
+    Id: g=f7893b2d4886fdc03a48910a1ca9a243
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=ed9d73b570fd8d803e1c68c5310362cf
+      Id: g=c9fedbd5c10c4dc59dd088d952635f7f
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB1/x0"
-      Children:
-      - Name: Mode
-        Id: g=508b8dcca32d3d3724a6d9ea5f1eb458
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        Value: 2
+      Value: "/Objects/siei_corso/CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB1/x0"
   - Name: LastEvent
-    Id: g=4d06a613dd011c4aaa061602c14516e5
+    Id: g=288c4ec06a1897959ae318157ce08951
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -66,41 +60,43 @@ Children:
     Target: ns=27;i=154
     Direction: Forward
   - Name: AutoAcknowledge
-    Id: g=5a0152bc093e3291eb967594c2358f22
+    Id: g=b6ccc3ec223a41139bb3bcba79237196
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
   - Name: AutoConfirm
-    Id: g=a85735f02c718fb131b286854e6e0f43
+    Id: g=d6bb3c236d70936d39fac94702ffa71f
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
+  - Name: MaxTimeShelved
+    Id: g=d682473748bc88ba7ade1b1fe1b73e08
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=482e2ebeb0e4693c916c25d36cbe17c0
+    Type: BaseDataVariableType
+    DataType: Duration
 - Name: DigitalAlarm2
-  Id: g=e280408d13c477831cc79d40de0c4530
+  Id: g=a2821a1a67fd41199cb70e6aefb948e7
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=1ca038ebe229dac24b293735e6f2713f
+    Id: g=107f672d2ed518a5b7fe1dfb39a28ba0
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=acac6eb1cc1424bffc9360b96f5a4cbb
+    Id: g=521e84471d90afb5e1a30ac42d51158b
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=1135b504158f5459bc44d1a5df63d15f
+      Id: g=00a019a2c8f64df08c1320b106585b98
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB1/X1"
-      Children:
-      - Name: Mode
-        Id: g=90fd6f472ef24ecadf15c402242edeff
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        Value: 2
+      Value: "/Objects/siei_corso/CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB1/X1"
   - Name: LastEvent
-    Id: g=5821c2307f2043faf33ea433dd8aab8e
+    Id: g=71700752790758a7d8cf9d0c9e291e40
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -138,47 +134,49 @@ Children:
   - Class: Reference
     Target: ns=27;i=154
     Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=1a3ae7735e7f9c9031dc50342d3bea33
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=e4c8d5176625d02c1b78ad3eacd22f5d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
   - Name: Severity
-    Id: g=5891ab6b648c41ac3e1f0ea87ae00a80
+    Id: g=26849c3517af5b885f3e06ae139f0aa3
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 2
-  - Name: AutoAcknowledge
-    Id: g=9b513194727c61ed747dd1c629ac0bfe
+  - Name: MaxTimeShelved
+    Id: g=913e3aa97dfba90dbe848918298b0502
     Type: BaseDataVariableType
-    DataType: Boolean
-    Value: true
-  - Name: AutoConfirm
-    Id: g=9464202139311a343564edc03ea78ad4
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=69d48264995ab9ca7858d12b6ae8b824
     Type: BaseDataVariableType
-    DataType: Boolean
-    Value: true
+    DataType: Duration
 - Name: DigitalAlarm3
-  Id: g=91ca2bd475197ac2f7cbc204b41816c7
+  Id: g=fdcc59cdfa504a6696a4ac86208357ef
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=11d0382b7eac5d879dee3c1833cea5e7
+    Id: g=a827e087e94236cfed69c26a76da2f6c
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=f0238ad040cb7e87fd8f994be67ef839
+    Id: g=91bae28f466c8bde9bf9f052d29d3b40
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=7a7671b354d7a92da7761f681c833bca
+      Id: g=e7431d021c71463f9c0dace975cd0208
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB1/X2"
-      Children:
-      - Name: Mode
-        Id: g=3aa1a988e542d1dbb8132d2fd899348b
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        Value: 2
+      Value: "/Objects/siei_corso/CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB1/X2"
   - Name: LastEvent
-    Id: g=0cebc957235fd564ba727c41b160ceca
+    Id: g=901c026313d5adf83841bdd75d281ebd
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -216,18 +214,171 @@ Children:
   - Class: Reference
     Target: ns=27;i=154
     Direction: Forward
-  - Name: Severity
-    Id: g=cb3379d039c2e8a6e8ef2ad6e7ed36d1
-    Type: BaseDataVariableType
-    DataType: UInt16
-    Value: 3
   - Name: AutoAcknowledge
-    Id: g=4c785ed40f1e4680302ef004ce8c17b0
+    Id: g=77ba48233a83840a7232218453522f68
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
   - Name: AutoConfirm
-    Id: g=0b1336c59d635fd244324f34aae4f788
+    Id: g=2bdf37b559fb8cc2d86fa0a6392e9791
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
+  - Name: Severity
+    Id: g=b2a9f5a9e446d691bebc34f4ebab5847
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: Message
+    Id: g=ce44b623026998530ff474efd661d477
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"it-IT","Text":"sono un allarme"}
+  - Name: MaxTimeShelved
+    Id: g=d4c26d2d65485df2e443cdeab67617de
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=317615bde639f696c9efe8f443adbab0
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm4
+  Id: g=f88038eba1ff48dfb5068f3ceebe6829
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7bbd0fc3958f1fbd63f35a1242ba668c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=3e31dbffa2eaaeb64fcf09e188aeb49c
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=36e9e4f2e4204dbb897f15931fc332b7
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/siei_corso/Model/Variable4[0]"
+  - Name: LastEvent
+    Id: g=fbaf80f1c3055c3cd6efee3193dea651
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=9ad4a1258c3f638bd1dba95d9c946072
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"_hi"}
+  - Name: MaxTimeShelved
+    Id: g=043d29d86872dc632df9a89d0ce09ce3
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=43435087417cfbcd2e9bb0be3ac2661a
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm5
+  Id: g=3f919ae0fdc34726b0934073d0a9d4fd
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=73f6521f8c8384c9185a61cb3897509c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=7697332f5f9ccc704c0a7a75b8573275
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=cbdec560d6a54dafad4570f4edd38bc7
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/siei_corso/Model/Variable4[1]"
+  - Name: LastEvent
+    Id: g=3935d3851b7e3d87d45a06ee47068167
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=cac74c1305c3235fb9b9fb26424a2e4c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":7,"TextId":"_hi"}
+  - Name: MaxTimeShelved
+    Id: g=14dc21efa1aee4201f4dd84a80294cb3
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=db9054b3602ce0e9d4a12afc27490c90
+    Type: BaseDataVariableType
+    DataType: Duration

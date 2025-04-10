@@ -3,6 +3,7 @@ Id: g=2cd8c7940e4666bd96ba4541bfb8e744
 Type: ModelCategoryFolder
 Children:
 - Name: Variable1
+  Id: g=8c1379836ae16be72055e5b8d3033f92
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: PLC
@@ -1499,3 +1500,14 @@ Children:
     DataType: Duration
 - File: Valves/Valves.yaml
 - File: VarsToLog/VarsToLog.yaml
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"NamespaceIndex":7,"TextId":"_motor"}
+- Name: Variable4
+  Id: g=d396f37fa2ec7924ba1b9b17545407ec
+  Type: BaseDataVariableType
+  DataType: Boolean
+  ValueRank: OneDimension
+  ArrayDimensions: [100]
+  Value: [true,true,true,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]

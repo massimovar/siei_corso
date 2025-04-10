@@ -9,22 +9,146 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [15,2],
+    "Dimensions": [50,3],
     "Body": [
-     "","en-US",
-     "Timestamp","Timestamp",
-     "TimedShelve","Timed Shelve",
-     "Acknowledge","Acknowledge",
-     "Acknowledge All","Acknowledge All",
-     "Active","Active",
-     "Confirm","Confirm",
-     "OneShotShelve","One-Shot Shelve",
-     "Confirm All","Confirm All",
-     "Name","Name",
-     "SourceName","Source Variable",
-     "Message","Message",
-     "Acked","Acked",
-     "Confirmed","Confirmed",
-     "Severity","Severity"
+     "","en-US","it-IT",
+     "Timestamp","Timestamp","",
+     "TimedShelve","Timed Shelve","",
+     "Acknowledge","Acknowledge","",
+     "Acknowledge All","Acknowledge All","",
+     "Active","Active","",
+     "Confirm","Confirm","",
+     "OneShotShelve","One-Shot Shelve","",
+     "Confirm All","Confirm All","",
+     "Name","Name","Nome",
+     "SourceName","Source Variable","",
+     "Message","Message","",
+     "Acked","Acked","",
+     "Confirmed","Confirmed","",
+     "Severity","Severity","",
+     "Old password","Old password","Vecchia password",
+     "LoginFormPasswordExpired","Password expired","Password scaduta",
+     "Login","Login","Login",
+     "New password","New password","Nuova password",
+     "Password","Password","Password",
+     "LoginChangePasswordFormPasswordTooShort","Password too short","Password troppo corta",
+     "Confirm password","Confirm password","Conferma password",
+     "Change password","Change password","Cambia password",
+     "Your password is expired. Please enter a new one","Your password is expired.\nPlease enter a new one.","Password scaduta.\nImmetterne una nuova.",
+     "Current User:","Current User:","Utente corrente:",
+     "Logout","Logout","Logout",
+     "LoginFormLoginSuccessful","Login successful","Login riuscito",
+     "LoginChangePasswordFormUnsupportedOperation","Unsupported operation","Operazione non supportata",
+     "LoginFormAuthenticationFailed","Authentication failed","Autenticazione fallita",
+     "LoginChangePasswordFormWrongOldPassword","Wrong old password","Vecchia password errata",
+     "LoginChangePasswordFormUserNotFound","User not found","Utente non trovato",
+     "LoginChangePasswordFormPasswordAlreadyUsed","Password already used","Password già utilizzata",
+     "LoginChangePasswordFormPasswordChangedTooRecently","Password changed too recently","Password cambiata troppo recentemente",
+     "LoginChangePasswordFormPasswordsDoNotMatch","Passwords do not match","Le password non coincidono",
+     "Create","Create","Crea",
+     "Groups","Groups","Gruppi",
+     "EmptyUserList","No users in list","Nessun utente nell'elenco",
+     "Delete","Delete","Elimina",
+     "Apply","Apply","Applica",
+     "Cancel","Cancel","Annulla",
+     "PasswordChangedTooRecently","Password changed too recently","Password cambiata troppo recentemente",
+     "Locale:","Locale:","Impostazioni locali:",
+     "CannotCreateUserWithEmptyUsername","Cannot create user with empty username","Impossibile creare un utente con nome utente vuoto",
+     "UnableToGetUsers","Unable to get users","Impossibile ottenere gli utenti",
+     "UsernameAlreadyExists","Username already exists","Nome utente già esistente",
+     "UserNotFound","User not found","Utente non trovato",
+     "PasswordAlreadyUsed","Password already used in the past","Password già utilizzata in passato",
+     "PasswordTooShort","Password too short","Password troppo corta",
+     "UnsupportedOperation","Unsupported operation","Operazione non supportata",
+     "ChangesAppliedSuccessfully","Changes applied successfully","Modifiche applicate correttamente"
     ]
    }
+- Name: AlarmsMessages
+  Id: g=591343ba94a7143bd3f296ade43af2e9
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [28,3],
+    "Body": [
+     "","en-US","it-IT",
+     "_motor","motor","motore",
+     "_hi","hi","ciao",
+     "Valve","Valve","valvola",
+     "_message1","message 1","messaggio 1",
+     "_message2","message 2","messaggio 2",
+     "_message3","message 3","messaggio 3",
+     "_message4","message 4","messaggio 4",
+     "_message5","message 5","messaggio 5",
+     "_message6","message 6","messaggio 6",
+     "_message7","message 7","messaggio 7",
+     "_message8","message 8","messaggio 8",
+     "_message9","message 9","messaggio 9",
+     "_message10","message 10","messaggio 10",
+     "_message11","message 11","messaggio 11",
+     "_message12","message 12","messaggio 12",
+     "_message13","message 13","messaggio 13",
+     "_message14","message 14","messaggio 14",
+     "_message15","message 15","messaggio 15",
+     "_message16","message 16","messaggio 16",
+     "_message17","message 17","messaggio 17",
+     "_message18","message 18","messaggio 18",
+     "_message19","message 19","messaggio 19",
+     "_message20","message 20","messaggio 20",
+     "_message21","message 21","messaggio 21",
+     "_message22","message 22","messaggio 22",
+     "_message23","message 23","messaggio 23",
+     "_message24","message 24","messaggio 24"
+    ]
+   }
+- Name: ImportAndExportTranslations
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/temp/myTranslations.csv"
+  - Class: Method
+    Name: ExportTranslations
+  - Class: Method
+    Name: ImportTranslations
+  - Name: CharacterSeparator
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Name: WrapFields
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LocalizationDictionary
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/siei_corso/Translations/AlarmsMessages"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"
+  - Name: ns=4;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 4
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "e7cab90d0ab7e8b5b02218e38bca9a0e",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }

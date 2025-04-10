@@ -122,15 +122,15 @@ Project:
    Module: FTOptix.EventLogger.Net
    Version: 1.0
  Statistics:
-  TotalNodeCount: 3361
-  Objects: 623
-  ObjectTypes: 15
-  Variables: 2722
+  TotalNodeCount: 4937
+  Objects: 930
+  ObjectTypes: 31
+  Variables: 3962
   VariableTypes: 0
   DataTypes: 0
-  Methods: 1
-  References: 78
+  Methods: 14
+  References: 121
   ReferenceTypes: 0
-  Files: 32
+  Files: 35
  Nodes:
  - File: Nodes/siei_corso.yaml

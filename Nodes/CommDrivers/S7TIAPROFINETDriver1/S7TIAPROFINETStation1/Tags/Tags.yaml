@@ -35,6 +35,7 @@ Children:
      }
     Children:
     - Name: x0
+      Id: g=da20902e890dfa003320a072b801bd59
       Type: S7TiaProfinetTag
       DataType: Boolean
       Children:
@@ -43,6 +44,7 @@ Children:
         DataType: String
         Value: "PLC.Blocks.DB1.x0"
     - Name: X1
+      Id: g=403489a29d298c05f0857f803675d6f9
       Type: S7TiaProfinetTag
       DataType: Boolean
       Children:
@@ -51,6 +53,7 @@ Children:
         DataType: String
         Value: "PLC.Blocks.DB1.X1"
     - Name: X2
+      Id: g=2f010b39486732431b744075beecef07
       Type: S7TiaProfinetTag
       DataType: Boolean
       Children:
