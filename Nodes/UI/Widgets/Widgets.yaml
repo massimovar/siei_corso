@@ -1,0 +1,211 @@
+Name: Widgets
+Type: FolderType
+Children:
+- Name: ValveWidget
+  Id: g=f541b5dc1eccaf8ecf9322e6398197dc
+  Supertype: Rectangle
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 200.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 200.0
+  - Name: BorderThickness
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 5.0
+  - Name: BorderColor
+    Type: BaseDataVariableType
+    DataType: Color
+    ModellingRule: Optional
+    Value: "#9f9c9c"
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{ValveInstance}@BrowseName"
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+  - Name: ValveOpen1
+    Type: ScaleLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ffffff"
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#6a6a6a"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: OriginalWidth
+      Type: BaseVariableType
+      DataType: Size
+      Value: 32.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: OriginalHeight
+      Type: BaseVariableType
+      DataType: Size
+      Value: 32.0
+    - Name: ELEMENT_1
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ValveOpen_ELEMENT_1.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 32.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 32.0
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+    - Name: ELEMENT_2
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ValveOpen_ELEMENT_2.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 32.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 32.0
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#6a6a6a"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../BorderColor"
+    - Name: ns=4;LibraryReference
+      Type: ObjectLibraryReference
+      DataType: ObjectLibraryReferenceDataType
+      ModellingRule: None
+      Value: 
+       {
+        "TypeId": {
+         "Id": 72,
+         "Namespace": 4
+        },
+        "Body": {
+         "libraryGuid": "0ca614251918448aa5b9a51295fabd47",
+         "objectGuid": "0f4cbef1f4631a0da5b4fc84482cbfa4",
+         "objectVersion": 1,
+         "highestIgnoredVersion": 0
+        }
+       }
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+  - Name: ValveInstance
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/siei_corso/Model/Valve"
+  - Name: Switch1
+    Type: Switch
+    Children:
+    - Name: Checked
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{ValveInstance}/Alarm"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 152.0

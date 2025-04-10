@@ -1,0 +1,129 @@
+Name: Valves
+Id: g=c1bd2903cac58acc75c22e4cb52c956b
+Type: FolderType
+Children:
+- Name: Valve1
+  Id: g=53e7a88461b4eb868d95ab437679f5ca
+  Type: Valve
+  Children:
+  - Name: Open
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Close
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Alarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Timer1
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Timer2
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Timer3
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: Timer4
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: Valve2
+  Id: g=4364ada4c89d188ec4d9ec3c3c51952e
+  Type: Valve
+  Children:
+  - Name: Open
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Close
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Alarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Timer1
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Timer2
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Timer3
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: Timer4
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: Valve3
+  Id: g=ba78fde9ec5b1db2be8869c8b6878703
+  Type: Valve
+  Children:
+  - Name: Open
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Close
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Alarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Timer1
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Timer2
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Timer3
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: Timer4
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: Valve4
+  Id: g=2558cd2d372f14726ef0c7d124aa874d
+  Type: Valve
+  Children:
+  - Name: Open
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Close
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Alarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Timer1
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Timer2
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Timer3
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: Timer4
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: Valve5
+  Id: g=daac7ab444e2a9b410ad8e1c49ae1055
+  Type: Valve
+  Children:
+  - Name: Open
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Close
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Alarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Timer1
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Timer2
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Timer3
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: Timer4
+    Type: BaseDataVariableType
+    DataType: Duration

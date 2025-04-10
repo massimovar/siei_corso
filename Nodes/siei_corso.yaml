@@ -68,3 +68,4 @@ Children:
   Type: BaseDataVariableType
   DataType: NodeId
   Value: "/Objects/siei_corso/Model/PLC/DB2"
+- File: AlarmTypes/AlarmTypes.yaml

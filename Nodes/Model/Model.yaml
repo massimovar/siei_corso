@@ -399,3 +399,29 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
+- Name: Valve
+  Id: g=96ab39d8f17eb9e098abab178af30050
+  Supertype: BaseObjectType
+  Children:
+  - Name: Open
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Close
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Alarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Timer1
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Timer2
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Timer3
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: Timer4
+    Type: BaseDataVariableType
+    DataType: Duration
+- File: Valves/Valves.yaml
