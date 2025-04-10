@@ -1395,6 +1395,16 @@ Children:
             Type: BaseDataVariableType
             DataType: Boolean
             Value: true
+          - Name: BackgroundColor
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: Optional
+            Value: "#0000ff"
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: Optional
+            Value: "#ffffff"
         - Name: SandboxBtn
           Type: Button
           Children:
