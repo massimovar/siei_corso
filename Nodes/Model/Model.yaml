@@ -380,6 +380,1079 @@ Children:
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
+  - Name: DB_Valvole
+    Type: BaseObjectType
+    Children:
+    - Name: V_1
+      Type: BaseObjectType
+      Children:
+      - Name: Nome
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/1/Nome"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Open
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/1/Open"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Close
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/1/Close"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Alarm
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/1/Alarm"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer1
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/1/Timer1"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer2
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/1/Timer2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer3
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/1/Timer3"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer4
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/1/Timer4"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: V_2
+      Type: BaseObjectType
+      Children:
+      - Name: Nome
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/2/Nome"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Open
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/2/Open"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Close
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/2/Close"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Alarm
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/2/Alarm"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer1
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/2/Timer1"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer2
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/2/Timer2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer3
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/2/Timer3"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer4
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/2/Timer4"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: V_3
+      Type: BaseObjectType
+      Children:
+      - Name: Nome
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/3/Nome"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Open
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/3/Open"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Close
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/3/Close"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Alarm
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/3/Alarm"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer1
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/3/Timer1"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer2
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/3/Timer2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer3
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/3/Timer3"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer4
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/3/Timer4"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: V_4
+      Type: BaseObjectType
+      Children:
+      - Name: Nome
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/4/Nome"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Open
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/4/Open"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Close
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/4/Close"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Alarm
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/4/Alarm"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer1
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/4/Timer1"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer2
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/4/Timer2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer3
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/4/Timer3"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer4
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/4/Timer4"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: V_5
+      Type: BaseObjectType
+      Children:
+      - Name: Nome
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/5/Nome"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Open
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/5/Open"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Close
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/5/Close"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Alarm
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/5/Alarm"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer1
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/5/Timer1"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer2
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/5/Timer2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer3
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/5/Timer3"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer4
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/5/Timer4"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: V_6
+      Type: BaseObjectType
+      Children:
+      - Name: Nome
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/6/Nome"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Open
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/6/Open"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Close
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/6/Close"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Alarm
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/6/Alarm"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer1
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/6/Timer1"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer2
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/6/Timer2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer3
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/6/Timer3"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer4
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/6/Timer4"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: V_7
+      Type: BaseObjectType
+      Children:
+      - Name: Nome
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/7/Nome"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Open
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/7/Open"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Close
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/7/Close"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Alarm
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/7/Alarm"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer1
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/7/Timer1"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer2
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/7/Timer2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer3
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/7/Timer3"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer4
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/7/Timer4"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: V_8
+      Type: BaseObjectType
+      Children:
+      - Name: Nome
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/8/Nome"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Open
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/8/Open"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Close
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/8/Close"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Alarm
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/8/Alarm"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer1
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/8/Timer1"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer2
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/8/Timer2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer3
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/8/Timer3"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer4
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/8/Timer4"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: V_9
+      Type: BaseObjectType
+      Children:
+      - Name: Nome
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/9/Nome"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Open
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/9/Open"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Close
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/9/Close"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Alarm
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/9/Alarm"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer1
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/9/Timer1"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer2
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/9/Timer2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer3
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/9/Timer3"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer4
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/9/Timer4"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: V_10
+      Type: BaseObjectType
+      Children:
+      - Name: Nome
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/10/Nome"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Open
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/10/Open"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Close
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/10/Close"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Alarm
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/10/Alarm"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer1
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/10/Timer1"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer2
+        Type: BaseDataVariableType
+        DataType: Int16
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/10/Timer2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer3
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/10/Timer3"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Timer4
+        Type: BaseDataVariableType
+        DataType: Duration
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/DB_Valvole/V/10/Timer4"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
 - Name: Variable2
   Type: BaseDataVariableType
   DataType: Int32
@@ -425,3 +1498,4 @@ Children:
     Type: BaseDataVariableType
     DataType: Duration
 - File: Valves/Valves.yaml
+- File: VarsToLog/VarsToLog.yaml

@@ -8,6 +8,10 @@ using FTOptix.NetLogic;
 using System.Linq;
 using UAManagedCore;
 using FTOptix.Alarm;
+using FTOptix.Store;
+using FTOptix.SQLiteStore;
+using FTOptix.DataLogger;
+using FTOptix.EventLogger;
 
 #endregion
 

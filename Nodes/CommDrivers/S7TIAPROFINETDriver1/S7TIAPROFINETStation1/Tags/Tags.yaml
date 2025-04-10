@@ -274,3 +274,956 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "PLC.Blocks.DB2.r5"
+  - Name: DB_Valvole
+    Type: TagStructure
+    DataType: Structure
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
+    Children:
+    - Name: V
+      Type: TagStructure
+      DataType: Structure
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: {"Type":22,"Body":[{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}}]}
+      Children:
+      - Name: 1
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: Nome
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[1].Nome"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 10
+        - Name: Open
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[1].Open"
+        - Name: Close
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[1].Close"
+        - Name: Alarm
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[1].Alarm"
+        - Name: Timer1
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[1].Timer1"
+        - Name: Timer2
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[1].Timer2"
+        - Name: Timer3
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[1].Timer3"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: Timer4
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[1].Timer4"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+      - Name: 2
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: Nome
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[2].Nome"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 10
+        - Name: Open
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[2].Open"
+        - Name: Close
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[2].Close"
+        - Name: Alarm
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[2].Alarm"
+        - Name: Timer1
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[2].Timer1"
+        - Name: Timer2
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[2].Timer2"
+        - Name: Timer3
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[2].Timer3"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: Timer4
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[2].Timer4"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+      - Name: 3
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: Nome
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[3].Nome"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 10
+        - Name: Open
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[3].Open"
+        - Name: Close
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[3].Close"
+        - Name: Alarm
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[3].Alarm"
+        - Name: Timer1
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[3].Timer1"
+        - Name: Timer2
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[3].Timer2"
+        - Name: Timer3
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[3].Timer3"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: Timer4
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[3].Timer4"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+      - Name: 4
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: Nome
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[4].Nome"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 10
+        - Name: Open
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[4].Open"
+        - Name: Close
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[4].Close"
+        - Name: Alarm
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[4].Alarm"
+        - Name: Timer1
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[4].Timer1"
+        - Name: Timer2
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[4].Timer2"
+        - Name: Timer3
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[4].Timer3"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: Timer4
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[4].Timer4"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+      - Name: 5
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: Nome
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[5].Nome"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 10
+        - Name: Open
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[5].Open"
+        - Name: Close
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[5].Close"
+        - Name: Alarm
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[5].Alarm"
+        - Name: Timer1
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[5].Timer1"
+        - Name: Timer2
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[5].Timer2"
+        - Name: Timer3
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[5].Timer3"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: Timer4
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[5].Timer4"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+      - Name: 6
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: Nome
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[6].Nome"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 10
+        - Name: Open
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[6].Open"
+        - Name: Close
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[6].Close"
+        - Name: Alarm
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[6].Alarm"
+        - Name: Timer1
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[6].Timer1"
+        - Name: Timer2
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[6].Timer2"
+        - Name: Timer3
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[6].Timer3"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: Timer4
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[6].Timer4"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+      - Name: 7
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: Nome
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[7].Nome"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 10
+        - Name: Open
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[7].Open"
+        - Name: Close
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[7].Close"
+        - Name: Alarm
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[7].Alarm"
+        - Name: Timer1
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[7].Timer1"
+        - Name: Timer2
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[7].Timer2"
+        - Name: Timer3
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[7].Timer3"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: Timer4
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[7].Timer4"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+      - Name: 8
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: Nome
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[8].Nome"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 10
+        - Name: Open
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[8].Open"
+        - Name: Close
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[8].Close"
+        - Name: Alarm
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[8].Alarm"
+        - Name: Timer1
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[8].Timer1"
+        - Name: Timer2
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[8].Timer2"
+        - Name: Timer3
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[8].Timer3"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: Timer4
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[8].Timer4"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+      - Name: 9
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: Nome
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[9].Nome"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 10
+        - Name: Open
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[9].Open"
+        - Name: Close
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[9].Close"
+        - Name: Alarm
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[9].Alarm"
+        - Name: Timer1
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[9].Timer1"
+        - Name: Timer2
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[9].Timer2"
+        - Name: Timer3
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[9].Timer3"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: Timer4
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[9].Timer4"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+      - Name: 10
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: Nome
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[10].Nome"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 10
+        - Name: Open
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[10].Open"
+        - Name: Close
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[10].Close"
+        - Name: Alarm
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[10].Alarm"
+        - Name: Timer1
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[10].Timer1"
+        - Name: Timer2
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[10].Timer2"
+        - Name: Timer3
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[10].Timer3"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: Timer4
+          Type: S7TiaProfinetTag
+          DataType: Duration
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.DB_Valvole.V[10].Timer4"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding

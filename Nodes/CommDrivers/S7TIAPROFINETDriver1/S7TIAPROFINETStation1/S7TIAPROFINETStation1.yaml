@@ -5,7 +5,7 @@ Children:
 - Name: IPAddress
   Type: BaseDataVariableType
   DataType: String
-  Value: "192.168.10.1"
+  Value: "192.168.0.1"
 - Name: Port
   Type: BaseDataVariableType
   DataType: UInt16
